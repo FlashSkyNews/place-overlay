@@ -24,6 +24,9 @@ Nach dem Installieren siehst du auf der r/place Leinwand kleinere "Pixel" innerh
 
 # FAQ
 
+## Kann ich mir anschauen, welche Motive das Overlay anzeigt?
+Ja, das kannst du immer über diesen Link machen: https://place.kayo.zip/outputs/overlay_target.png
+
 ## Wieso funktioniert das Overlay nicht?
 Falls das Overlay nicht funktioniert stelle bitte folgende Sachen sicher:
 - Lade die Seite einmal neu, eventuell wurde das Skript einfach nur nicht geladen.
