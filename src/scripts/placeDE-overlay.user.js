@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/papaplatte Overlay
 // @namespace    http://tampermonkey.net/
-// @version      8.3
+// @version      8.4
 // @description  try to take over the canvas!
 // @author       placeDE Devs <3 danke jungs
 // @match        https://garlic-bread.reddit.com/embed*
