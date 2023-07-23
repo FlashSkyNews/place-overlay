@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         r/place 2023 Canada Overlay with German tiles
+// @name         r/papaplatte Advanced Overlay
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      1.0
 // @description  Script that adds a button to toggle an hardcoded image shown in the 2023's r/place canvas
 // @author       max-was-here
 // @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png
 // @grant        none
+// @updateURL    https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.js
+// @downloadURL  https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.js
 // ==/UserScript==
 
 let width = "2000px";
