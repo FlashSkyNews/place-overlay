@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 let width = "2000px";
-let height = "1500px";
+let height = "2000px";
 var button = null;
 
 if (window.top !== window.self) {
