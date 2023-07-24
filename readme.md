@@ -47,3 +47,6 @@ Das liegt daran, dass die Vorlage einen Fehler enthält. Um das zu beheben muss 
 
 ## Setzt das Overlay automatisch Pixel?
 Nein, das ist nicht der Zweck des Overlays. Das Overlay ist nur als Hilfe zum Pixeln gedacht.
+
+## Gibt es noch eine erweiterte Version?
+Ja, hier:  https://github.com/FlashSkyNews/place-overlay/raw/main/src/scripts/advanced_overlay.js
