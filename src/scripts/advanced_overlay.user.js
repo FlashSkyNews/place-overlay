@@ -196,5 +196,12 @@ if (window.top !== window.self) {
       0, 100, oState.opacity,
       changeOpacity
     );
+
+    addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.code === "KeyX") {
+        switchOverlay();
+      }
+    });
+    
   });
 }
