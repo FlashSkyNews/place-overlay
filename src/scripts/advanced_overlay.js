@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/papaplatte Advanced Overlay
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Script that adds a button to toggle an hardcoded image shown in the 2023's r/place canvas
 // @author       max-was-here
 // @match        https://garlic-bread.reddit.com/embed*
@@ -11,7 +11,7 @@
 // @downloadURL  https://github.com/PlaceDE-Official/place-overlay/raw/main/src/scripts/advanced_overlay.js
 // ==/UserScript==
 
-let width = "2000px";
+let width = "2500px";
 let height = "2000px";
 var button = null;
 
