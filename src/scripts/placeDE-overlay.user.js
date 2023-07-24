@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         r/papaplatte Overlay
 // @namespace    http://tampermonkey.net/
-// @version      8.6
+// @version      8.7
 // @description  try to take over the canvas!
 // @author       placeDE Devs <3 danke jungs
 // @match        https://garlic-bread.reddit.com/embed*
@@ -17,7 +17,7 @@ if (window.top !== window.self) {
         const canvasContainer = document.querySelector("garlic-bread-embed").shadowRoot.querySelector("div.layout").querySelector("garlic-bread-canvas").shadowRoot.querySelector("div.container");
         overlayImage = document.createElement("img");
         updateImage();
-        overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;pointerEvents: 'none';`;
+        overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2500px;height: 2000px;pointerEvents: 'none';`;
         canvasContainer.appendChild(overlayImage);
         overlayButton = document.createElement("button");
         overlayButton.style = "position: absolute; top: 28px;left: 80px;border-radius: 0;border: 3px solid black;padding: 4px 10px;height: fit-content;";
