@@ -17,7 +17,7 @@ var button = null;
 if (window.top !== window.self) {
   addEventListener('load', () => {
     // ==============================================
-    const STORAGE_KEY = 'place-germany-2023-ostate';
+    const STORAGE_KEY = 'place-papaplatte-2023-ostate';
     const OVERLAYS = [
       ["https://place.kayo.zip/outputs/overlay_target.png", "Kleine Pixel"],
       ["https://place.kayo.zip/outputs/default_target.png", "Vollbild Preview"]
