@@ -20,7 +20,7 @@ if (window.top !== window.self) {
     const STORAGE_KEY = 'place-germany-2023-ostate';
     const OVERLAYS = [
       ["https://place.kayo.zip/outputs/overlay_target.png", "Kleine Pixel"],
-      ["https://place.kayo.zip/outputs/default_target.png", "Vollbild Pixel"]
+      ["https://place.kayo.zip/outputs/default_target.png", "Vollbild Preview"]
     ];
     const getConfig = (text) => {
       return text + "?" + Date.now()
@@ -113,7 +113,7 @@ if (window.top !== window.self) {
     const switchOverlay = () => {
       oState.overlayIdx = (oState.overlayIdx + 1) % OVERLAYS.length
       updateImage();
-      button.innerText = 'Switch Overlay\n(' + OVERLAYS[oState.overlayIdx][1] + ')';
+      button.innerText = 'Switch Overlay\n' + OVERLAYS[oState.overlayIdx][1] + '\naktiviert';
       img.style.opacity = oState.opacity / 100;
       saveState();
     };
